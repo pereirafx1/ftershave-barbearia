@@ -104,15 +104,6 @@ export default function Footer() {
                   +351 916 937 547
                 </a>
               </div>
-              <div className="flex gap-3">
-                <span className="text-gold shrink-0">✉</span>
-                <a
-                  href="mailto:geral@aftershavebarbearia.pt"
-                  className="hover:text-gold transition-colors"
-                >
-                  geral@aftershavebarbearia.pt
-                </a>
-              </div>
             </div>
           </div>
         </div>

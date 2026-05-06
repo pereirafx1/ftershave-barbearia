@@ -24,7 +24,7 @@ export default function Hero() {
 
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         {/* Top divider */}
-        <div className="flex items-center justify-center gap-4 mb-6">
+        <div className="flex items-center justify-center gap-4 mb-2">
           <div className="h-px w-16 bg-gold/60" />
           <span className="text-gold/80 text-xs tracking-[0.4em] uppercase font-light">
             Est. 2020 · Setúbal
@@ -37,7 +37,7 @@ export default function Hero() {
         <img
           src={LOGO_URL}
           alt="Aftershave Barbearia"
-          className="w-72 h-72 sm:w-96 sm:h-96 object-contain mx-auto mb-6 drop-shadow-[0_0_60px_rgba(201,168,76,0.3)]"
+          className="w-[340px] h-[340px] sm:w-[480px] sm:h-[480px] lg:w-[540px] lg:h-[540px] object-contain mx-auto mb-2 drop-shadow-[0_0_60px_rgba(201,168,76,0.3)]"
         />
 
         {/* Tagline */}
