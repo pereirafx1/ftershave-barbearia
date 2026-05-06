@@ -37,7 +37,7 @@ export default function Hero() {
         <img
           src={LOGO_URL}
           alt="Aftershave Barbearia"
-          className="w-[340px] h-[340px] sm:w-[480px] sm:h-[480px] lg:w-[540px] lg:h-[540px] object-contain mx-auto mb-2 drop-shadow-[0_0_60px_rgba(201,168,76,0.3)]"
+          className="w-[340px] h-[340px] sm:w-[480px] sm:h-[480px] lg:w-[540px] lg:h-[540px] object-contain mx-auto -mt-14 -mb-14 sm:-mt-20 sm:-mb-20 drop-shadow-[0_0_60px_rgba(201,168,76,0.3)]"
         />
 
         {/* Tagline */}
