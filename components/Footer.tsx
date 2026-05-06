@@ -90,18 +90,18 @@ export default function Footer() {
               <div className="flex gap-3">
                 <span className="text-gold shrink-0">📍</span>
                 <span>
-                  Rua Principal, 2900-000
+                  R. João Eloy do Amaral 152
                   <br />
-                  Setúbal, Portugal
+                  2900-111 Setúbal
                 </span>
               </div>
               <div className="flex gap-3">
                 <span className="text-gold shrink-0">📞</span>
                 <a
-                  href="tel:+351000000000"
+                  href="tel:+351916937547"
                   className="hover:text-gold transition-colors"
                 >
-                  +351 000 000 000
+                  +351 916 937 547
                 </a>
               </div>
               <div className="flex gap-3">

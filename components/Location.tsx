@@ -1,10 +1,9 @@
-// NOTA: Substitui a morada abaixo pela morada real da barbearia
-const ADDRESS = "Rua Principal, 2900-000 Setúbal, Portugal";
+// R. João Eloy do Amaral 152, 2900-111 Setúbal — GPS: 38.524385, -8.896569
+const ADDRESS = "R. João Eloy do Amaral 152, 2900-111 Setúbal";
 
-// Coordenadas GPS de Setúbal (substituir pelas coordenadas exatas da morada)
-// Praça do Bocage, Setúbal: 38.5238° N, -8.8887° W
+// Vista satélite 45° sobre a morada — filtro dark aplicado via CSS
 const MAPS_EMBED_URL =
-  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1500!2d-8.8887!3d38.5238!2m3!1f0!2f45!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd193978fef6dad7%3A0xf82f8f2e1e254dc8!2zUHJhw6dhIGRvIEJvY2FnZSwgU2V0w7piYWw!5e1!3m2!1spt!2spt!4v1716000000000!5m2!1spt!2spt";
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d600!2d-8.896569!3d38.524385!2m3!1f0!2f45!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1939393b41c14b%3A0x0!2sR.+Jo%C3%A3o+Eloy+do+Amaral+152%2C+2900-111+Set%C3%BAbal!5e1!3m2!1spt!2spt!4v1716000000000!5m2!1spt!2spt";
 
 export default function Location() {
   return (
@@ -157,10 +156,10 @@ export default function Location() {
                     Contacto
                   </h3>
                   <a
-                    href="tel:+351000000000"
+                    href="tel:+351916937547"
                     className="text-gold hover:text-gold-light text-sm transition-colors"
                   >
-                    +351 000 000 000
+                    +351 916 937 547
                   </a>
                 </div>
               </div>
