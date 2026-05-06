@@ -5,7 +5,7 @@ const LOGO_URL =
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-dark">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-dark py-24">
       {/* Background grid pattern */}
       <div
         className="absolute inset-0 opacity-[0.04]"
@@ -24,7 +24,7 @@ export default function Hero() {
 
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         {/* Top divider */}
-        <div className="flex items-center justify-center gap-4 mb-10">
+        <div className="flex items-center justify-center gap-4 mb-6">
           <div className="h-px w-16 bg-gold/60" />
           <span className="text-gold/80 text-xs tracking-[0.4em] uppercase font-light">
             Est. 2020 · Setúbal
@@ -37,16 +37,16 @@ export default function Hero() {
         <img
           src={LOGO_URL}
           alt="Aftershave Barbearia"
-          className="w-48 h-48 sm:w-64 sm:h-64 object-contain mx-auto mb-8 drop-shadow-[0_0_40px_rgba(201,168,76,0.25)]"
+          className="w-72 h-72 sm:w-96 sm:h-96 object-contain mx-auto mb-6 drop-shadow-[0_0_60px_rgba(201,168,76,0.3)]"
         />
 
         {/* Tagline */}
-        <p className="text-white/50 text-sm sm:text-base tracking-[0.25em] uppercase mb-10">
+        <p className="text-white/50 text-sm sm:text-base tracking-[0.25em] uppercase mb-6">
           Arte · Precisão · Estilo
         </p>
 
         {/* Divider */}
-        <div className="flex items-center justify-center gap-4 mb-10">
+        <div className="flex items-center justify-center gap-4 mb-6">
           <div className="h-px w-24 bg-gold/40" />
           <svg
             className="w-4 h-4 text-gold/60"
