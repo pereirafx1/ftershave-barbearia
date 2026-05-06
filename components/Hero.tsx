@@ -1,5 +1,8 @@
 import Link from "next/link";
 
+const LOGO_URL =
+  "https://cdn.discordapp.com/attachments/1420855366685692094/1501527385156358214/Captura_de_ecra_2026-05-06_111242-Photoroom.png?ex=69fc65d9&is=69fb1459&hm=ef0031fd8fed623b8a7bc986c895c49bd3c1b7004e4ffdd08a5004beb6ee6b08&";
+
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-dark">
@@ -19,9 +22,9 @@ export default function Hero() {
       {/* Gold glow center */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gold/5 rounded-full blur-[120px] pointer-events-none" />
 
-      <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
-        {/* Top divider line */}
-        <div className="flex items-center justify-center gap-4 mb-8">
+      <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
+        {/* Top divider */}
+        <div className="flex items-center justify-center gap-4 mb-10">
           <div className="h-px w-16 bg-gold/60" />
           <span className="text-gold/80 text-xs tracking-[0.4em] uppercase font-light">
             Est. 2020 · Setúbal
@@ -29,23 +32,21 @@ export default function Hero() {
           <div className="h-px w-16 bg-gold/60" />
         </div>
 
-        {/* Main title */}
-        <h1 className="font-serif text-6xl sm:text-8xl lg:text-[10rem] font-bold tracking-tight text-white leading-none mb-2">
-          After
-          <span className="text-gold">shave</span>
-        </h1>
-
-        <h2 className="font-serif text-2xl sm:text-4xl lg:text-5xl font-light tracking-[0.3em] text-white/80 uppercase mb-6">
-          Barbearia
-        </h2>
+        {/* Logo grande no centro */}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={LOGO_URL}
+          alt="Aftershave Barbearia"
+          className="w-48 h-48 sm:w-64 sm:h-64 object-contain mx-auto mb-8 drop-shadow-[0_0_40px_rgba(201,168,76,0.25)]"
+        />
 
         {/* Tagline */}
-        <p className="text-white/50 text-sm sm:text-base tracking-[0.2em] uppercase mb-12">
+        <p className="text-white/50 text-sm sm:text-base tracking-[0.25em] uppercase mb-10">
           Arte · Precisão · Estilo
         </p>
 
-        {/* Bottom divider line */}
-        <div className="flex items-center justify-center gap-4 mb-12">
+        {/* Divider */}
+        <div className="flex items-center justify-center gap-4 mb-10">
           <div className="h-px w-24 bg-gold/40" />
           <svg
             className="w-4 h-4 text-gold/60"

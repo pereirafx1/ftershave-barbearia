@@ -2,10 +2,6 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
-
-const LOGO_URL =
-  "https://cdn.discordapp.com/attachments/1420855366685692094/1501527385156358214/Captura_de_ecra_2026-05-06_111242-Photoroom.png?ex=69fc65d9&is=69fb1459&hm=ef0031fd8fed623b8a7bc986c895c49bd3c1b7004e4ffdd08a5004beb6ee6b08&";
 
 const navLinks = [
   { href: "/#servicos", label: "Serviços" },
@@ -34,24 +30,14 @@ export default function Navbar() {
     >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="relative w-12 h-12">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={LOGO_URL}
-                alt="Aftershave Barbearia"
-                className="w-12 h-12 object-contain"
-              />
-            </div>
-            <div className="leading-tight">
-              <span className="block font-serif text-lg font-bold text-gold tracking-widest uppercase">
-                Aftershave
-              </span>
-              <span className="block text-xs text-white/60 tracking-[0.25em] uppercase">
-                Barbearia
-              </span>
-            </div>
+          {/* Logo — apenas texto */}
+          <Link href="/" className="leading-tight group">
+            <span className="block font-serif text-lg font-bold text-gold tracking-widest uppercase group-hover:text-gold-light transition-colors">
+              Aftershave
+            </span>
+            <span className="block text-xs text-white/60 tracking-[0.25em] uppercase">
+              Barbearia
+            </span>
           </Link>
 
           {/* Desktop nav */}
