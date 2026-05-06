@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 
 const LOGO_URL =
-  "https://cdn.discordapp.com/attachments/1420855366685692094/1501527385156358214/Captura_de_ecra_2026-05-06_111242-Photoroom.png?ex=69fc65d9&is=69fb1459&hm=ef0031fd8fed623b8a7bc986c895c49bd3c1b7004e4ffdd08a5004beb6ee6b08&";
+  "https://cdn.discordapp.com/attachments/1420855366685692094/1501540167704641656/Captura_de_ecra_2026-05-06_111242-Photoroom.png?ex=69fc71c1&is=69fb2041&hm=679b46f7df4885db34f446d688f63d933679fc1f9915fb1525fe0548c8e065fe&";
 
 export default function AdminLoginPage() {
   const router = useRouter();
